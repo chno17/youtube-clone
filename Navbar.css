@@ -1,38 +1,38 @@
 nav{
-    padding: 10px 2%;
-    justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    background: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    padding: 10px 2%; /*navbar 끝에 요소들이 붙어있지 않게*/
+    justify-content: space-between; /*요소들을 균등하게 배치*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /*navbar에 그림자*/
+    background: #fff; /*배경 색 설정*/
+    position: sticky;/*화면 스크롤 해도 계속 따라오게*/
+    top: 0;/*위쪽에 딱 붙이는거*/
+    z-index: 10;/*다른 요소 뭐 페이지같은거보다 위에 떠있도록*/
 }
 .nav-left .menu-icon{
-    width: 22px;
-    margin-right: 25px;
+    width: 22px; /*메뉴 아이콘의 넓이*/
+    margin-right: 25px;/*위치*/
 }
 .nav-left .logo{
-    width: 130px;
+    width: 130px;/*로고 넓이*/
 }
 .nav-middle .search-box{
-    border: 1px solid #ccc;
-    margin-right: 15px;
-    padding: 8px 12px;
-    border-radius: 25px;
+    border: 1px solid #ccc; /*경계선 두께,선 종류, 색*/
+    margin-right: 15px;/*위치 설정*/
+    padding: 8px 12px;/*서치박스 안에다가 위아래 여백 8 양옆여백 12*/
+    border-radius: 25px;/*경계선 깎아서 둥글게 만드는거 정도*/
 }
 .nav-middle .search-box input{
-    width: 400px;
-    outline: 0;
-    background: transparent;
+    width: 400px;/*서치 박스 안에 인풋 태그 넓이*/
+    outline: 0;/*인풋 태그 태두리 없애주는거*/
+    background: transparent;/*배경색을 투명하게게*/
 }
 .nav-middle .search-box img{
-    width: 15px;
+    width: 15px;/*검색버튼 이미지의 크기 설정*/
 }
 .nav-right img{
-    width: 25px;
-    margin-right: 25px;
+    width: 25px;/*크기 설정*/
+    margin-right: 25px;/*위치 설정*/
 }
 .nav-right .user-icon{
-    width: 35px;
-    border-radius: 50%;
+    width: 35px;/*크기 설정*/
+    border-radius: 50%;/*테두리 둥글게*/
 }
