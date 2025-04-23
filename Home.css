@@ -1,11 +1,10 @@
-.container{
+.container{/*sidebar랑 같은거*/
     background: #f9f9f9;
     padding-left: 17%;
     padding-right: 2%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.large-container{
+.large-container{/*사이드바가 큰 상황일때 안쪽으로 여백 띄우는거*/
     padding-left: 7%;
-    
 }
