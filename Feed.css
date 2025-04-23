@@ -1,27 +1,27 @@
 .feed{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-column-gap: 16px;
-    grid-row-gap: 30px;
-    margin-top: 15px;
+    display: grid;/*자식요소들을 줄과 칸으로 정렬*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));/*250px크기를 가진 박스로 줄 정렬*/
+    grid-column-gap: 16px;/*좌우 간격*/
+    grid-row-gap: 30px;/*위 아래 간격*/
+    margin-top: 15px;/*위로 15px간격은 둔 다음에 그 아래로 박스 하나씩*/
 }
 .card img{
-    width: 100%;
-    border-radius: 5px;
+    width: 100%;/*카드가 피드 안에 있으니까 100%로 하면 크기 맞게 나옴*/
+    border-radius: 5px;/*늘 쓰던 상자 둥글게 하기*/
 }
-.card h2{
+.card h2{/*영상 제목 건드리는 부분*/
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600;/*글씨 굵기라네*/
     color: #000;
     margin: 5px 0;
 }
-.card h3{
+.card h3{/*만든 크리에이터 표시*/
     font-size: 14px;
     font-weight: 600;
     color: #555;
     margin: 6px 0;
 }
-.card p{
+.card p{/*조회수나 몇일 전 영상인지 출력하는 애*/
     font-size: 14px;
-    
+
 }
